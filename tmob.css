@@ -340,7 +340,8 @@ border: 1px solid red;
 	
 }
 	.faf{
-		background-color:red;
+		background-color:white;
+}
 }
 
 @media(min-width: 1000px)
