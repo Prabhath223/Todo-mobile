@@ -263,6 +263,11 @@ padding-top: 90px;
 	width: 0px;
 	height: 0px;
 }
+	.plus{
+		border:none;
+		width: 0px;
+	height: 0px;
+		
 }
 
 @media(min-width: 1000px)
