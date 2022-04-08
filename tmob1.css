@@ -259,9 +259,10 @@ padding-top: 90px;
 .arow{
 	display: none;
 }
-	.faf{
-		height:0px;
-		width:0px;
+.faf{
+	width: 0px;
+	height: 0px;
+}
 }
 
 @media(min-width: 1000px)
