@@ -1,0 +1,354 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;;
+
+}
+
+.upper-container{
+	width: 55%;
+	height: 10%;
+	margin: 50px auto ;
+	position: relative;
+align-content: center;
+background-color: rd;
+margin-bottom: 20px;
+
+
+}
+.upper-container1{
+	width: 45% ;
+	height: 100%;
+	padding-top: 200px;
+	padding-left: 150px;
+	background-color: geen;
+
+	
+
+}
+
+#tasks{
+	font-weight: 900;
+	font-size: 60px;
+
+
+}
+
+#lists{
+	font-size: 60px;
+	margin-left:10px ;
+	opacity: 50%;
+	font-weight: lighter;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.upper-container2{
+	width: 30% ;
+	height: 100%;
+	padding-top: 220px;
+	padding-right: 0px;
+	padding-left: 45px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: yllow;
+	
+
+
+}
+
+
+#addlists{
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	opacity: 50%;
+	font-size: 35px;
+    padding-top: 220px;
+	padding-right: 0px;
+	padding-left: 0px;
+	top: 0;
+	right: 0;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.card1{
+	width: 13%;
+	margin: auto;
+	margin-right: 100px;
+border: 1px solid red;
+	border-radius: 10px;
+	height: 350px;
+	padding-bottom: 80px;
+	box-shadow:6px 6px 5px lightgray;
+	background-color: yello;
+	position: relative;
+}
+
+.card2{
+	width: 13%;
+	margin: auto;
+	margin-right: 100px;
+	border: 1px solid red;
+	border-radius: 10px;
+	height: 350px;
+	padding-bottom: 80px;
+	box-shadow:6px 6px 5px lightgray;
+	background-color: yello;
+	position: relative;
+}
+
+.card3{
+	width: 13%;
+	margin: auto;
+	margin-right: 100px;
+border: 1px solid  red;
+	border-radius: 10px;
+	height: 350px;
+	padding-bottom: 80px;
+	box-shadow: 6px 6px 5px lightgray;
+	background-color: yello;
+	position: relative;
+}
+
+.card4{
+	width: 13%;
+	margin: auto;
+	margin-right: 100px;
+border: 1px solid red;
+	border-radius: 10px;
+	height: 350px;
+	padding-bottom: 80px;
+	box-shadow: 6px 6px 5px  lightgray;
+	background-color: yello;
+	position: relative;
+
+}
+
+
+
+.card5{
+	width: 13%;
+	margin: auto;
+	margin-right: 100px;
+border: 1px solid red;
+	border-radius: 10px;
+	height: 350px;
+	padding-bottom: 80px;
+	box-shadow: 6px 6px 5px  lightgray;
+	background-color: yello;
+	position: relative;
+}
+
+
+
+
+.maincard{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 400px;
+	align-content: center;
+    padding-top: 0px;
+	padding-left: 200px;
+	background-color: bue;
+
+}
+
+.div1{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	text-align: left;
+	font-size: 25px;
+	width: 80%;
+	height: 12%;
+	color: red;
+	font-weight: 100;
+	border-bottom: 1px solid black;
+
+}
+.div2{
+	position: absolute;
+	width: 95%;
+	height: 15%;
+	top: 35%;
+	font-size: 25px;
+	text-align: right;
+	text-decoration: line-through;
+	color: red;
+	font-weight:500 ;
+}
+.div3{
+	position: absolute;
+	width:85% ;
+	height: 15px;
+	top: 50%;
+	font-size: 22px;
+	text-align: left;
+}
+#check{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.hov{
+	position: relative;
+	height: 40px;
+	width: 25px;
+	background-color: lightgray;
+	border-radius: 6px;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+.but{
+	position: relative;
+	padding-top: 190px;
+	padding-left: 90px;
+	text-align: center;
+}
+
+.hov:hover{
+	background-color: silver;
+
+
+}
+.faf{
+	height: 60px;
+	width: 30px;
+	border: none;
+	cursor: pointer;
+
+
+
+}
+.arow{
+
+	cursor: pointer;
+	margin-bottom: 38px;
+}
+
+
+@media(max-width: 600px)
+{
+	.upper-container
+	{
+		width: 100%;
+		background-color: yelow;
+		margin-right: 30px;
+
+	}
+	#addlists{
+		display: none;
+	}
+	.arow{
+			position: absolute;
+			right: 35px;
+			top: 15px;
+		
+			
+	}
+	.upper-container1{
+		padding-top: 0px;
+		width: 90%;
+	    padding-left: 15px;
+		
+
+	}
+	.upper-container2{
+		height: 50px;
+		padding: 10px;
+	}
+	.div2{
+		display: none;
+	}
+	.div3{
+		display: none;
+	}
+    .div1{
+    	color: gray;
+    	border: none;
+    	top :28px;
+    	left: 20px;
+    }
+
+   .maincard{
+   	padding-left: 15px;
+   	padding-top: 100px;
+ margin-top: 85px;
+ flex-direction: row;
+
+
+   }
+    .card1{
+    	height: 18%;
+    	width: 100%;
+    	margin-right: 40px;
+    	margin-bottom: 30px;
+    	border: 1px solid rgba(255, 99, 71, 0.3);
+
+    }
+      .card2{
+    	height: 18%;
+    	width: 100%;
+      	margin-bottom: 25px;
+    
+    	margin-right: 40px;
+    	border: 1px solid rgba(255, 99, 71, 0.3);
+
+    }
+
+  .card3{
+    	height: 18%;
+    	width: 100%;
+    	    	margin-bottom: 30px;
+    	margin-right: 40px;
+    	border: 1px solid rgba(255, 99, 71, 0.3);
+
+    }
+ .card4{
+    	height: 18%;
+    	width: 100%;
+    	    	margin-bottom: 30px;
+    	margin-right: 40px;
+    	border: 1px solid rgba(255, 99, 71, 0.3);
+
+    }
+     .card5{
+    	height: 18%;
+    	width: 100%;
+    	    	margin-bottom: 30px;
+    	margin-right: 40px;
+    	border: 1px solid rgba(255, 99, 71, 0.3);
+
+    }
+    #tasks{
+    	font-size: 55px;
+    }
+    #lists{
+    	font-size: 55px;
+    }
+.but{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+}
+
+@media(min-width: 1000px)
+{
+	.card4{
+		display: none;
+
+	}
+	.card5{
+		display: none;
+		
+	}
+	
+}
