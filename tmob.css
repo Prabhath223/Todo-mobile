@@ -172,6 +172,20 @@ border: 1px solid red;
 	border-bottom: 1px solid black;
 
 }
+
+.divp{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	text-align: left;
+	font-size: 25px;
+	width: 80%;
+	height: 12%;
+	color: red;
+	font-weight: 100;
+	border-bottom: 1px solid black;
+
+}
 .div2{
 	position: absolute;
 	width: 95%;
@@ -293,6 +307,23 @@ border: 1px solid red;
     	margin-bottom: 30px;
     	border: 1px solid rgba(255, 99, 71, 0.3);
 
+    }
+	.card1:hover{
+    	background-color: #E0E0E0;
+    
+    	cursor: pointer;
+    }
+    .divp:hover{
+    	text-decoration: underline;
+    	font-weight: 900;
+    }
+
+     .divp{
+    
+    	color: gray;
+    	border: none;
+    	top :28px;
+    	left: 20px;
     }
       .card2{
     	height: 18%;
